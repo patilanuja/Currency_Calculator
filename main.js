@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('#result').innerHTML = 'An error occurred. Please try again later.';
             });
 
-         // Clear input field and disable button again
+         // Clear the input field and disable the button again
          document.querySelector('#currency').value = '';
          document.querySelector('#submit').disabled = true;
 
